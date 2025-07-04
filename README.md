@@ -7,11 +7,11 @@ A simple Java e-commerce system with product management, shopping cart, and chec
 - Product management (expiring/non-expiring, shippable/non-shippable)
 - Shopping cart with quantity validation
 - Checkout process with:
-  - Shipping calculation (minimum 30 fee)
+  - Shipping calculation 
   - Payment validation
   - Inventory updates
 - Detailed output including:
-  - Shipment notice (for shippable items)
+  - Shipment Notice (for shippable items)
   - Checkout receipt
 
 ## How to Run
