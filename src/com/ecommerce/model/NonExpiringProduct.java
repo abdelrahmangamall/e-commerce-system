@@ -1,6 +1,8 @@
 package com.ecommerce.model;
 
-public class NonExpiringProduct extends Product {
+import com.ecommerce.interfaces.Shippable;
+
+public class NonExpiringProduct extends Product implements Shippable {
 
     private final boolean shippable;
     private final double weight;

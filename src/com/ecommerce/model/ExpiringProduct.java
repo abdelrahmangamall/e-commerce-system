@@ -1,8 +1,10 @@
 package com.ecommerce.model;
 
+import com.ecommerce.interfaces.Shippable;
+
 import java.time.LocalDate;
 
-public class ExpiringProduct extends Product {
+public class ExpiringProduct extends Product implements Shippable {
 
    private final LocalDate expiryDate;
    private final boolean shippable;

@@ -24,7 +24,6 @@ public class Main {
         ShippingService shippingService = new ShippingService();
         CheckoutService checkoutService = new CheckoutService(shippingService);
         checkoutService.checkout(customer, cart);
-
         testErrorCases();
     }
 
